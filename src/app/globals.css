@@ -304,3 +304,17 @@ button, a { -webkit-tap-highlight-color: transparent; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
 }
+
+.partner-intro { flex: 1 1 300px; }
+.partner-intro > p:not(.eyebrow) { max-width: 560px; color: rgba(255,255,255,.72); font-size: 12px; line-height: 1.8; }
+.partner-intro .partner-note { color: rgba(255,255,255,.56); font-size: 10px; }
+.property-form { flex: 1 1 560px; min-width: 0; padding: 25px; border-radius: 10px; background: #fff; color: var(--ink); }
+.form-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 15px; }
+.property-form label { display: block; color: #626e65; font-size: 11px; font-weight: 700; }
+.property-form input, .property-form select, .property-form textarea { display: block; width: 100%; min-height: 44px; margin-top: 7px; padding: 11px 12px; border: 1px solid #e3e7e0; border-radius: 7px; outline-color: var(--green-2); background: #fcfcfa; color: var(--ink); font: inherit; font-size: 12px; }
+.property-form textarea { resize: vertical; min-height: 95px; }
+.description-label { margin-top: 15px; }
+.property-submit { display: flex; justify-content: space-between; align-items: center; width: 100%; min-height: 48px; margin-top: 17px; padding: 0 15px; border: 0; border-radius: 7px; background: var(--green); color: white; cursor: pointer; font-size: 12px; font-weight: 700; }
+.property-submit:hover { background: var(--green-2); }
+.form-footnote { margin: 10px 0 0; color: #89938b; font-size: 10px; line-height: 1.6; }
+@media (max-width: 700px) { .property-form { width: 100%; padding: 19px; } .form-grid { grid-template-columns: 1fr; gap: 13px; } }
