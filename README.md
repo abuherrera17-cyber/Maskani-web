@@ -2,17 +2,18 @@
 
 **Find a place to call home.**
 
-Maskani is a Nairobi-first rental marketplace prototype connecting people looking for homes with landlords, agents and property managers.
+Maskani is a Nairobi-first rental marketplace prototype intended to connect renters with landlords, agents and property managers.
 
-## Current prototype
+## Current website
 
-- Responsive landing page for Nairobi rentals
+- Responsive Nairobi rental landing page
 - Search by neighbourhood and monthly budget
-- Quick neighbourhood filters
-- Sample property cards using the three local images in `public/houses/`
-- Basic explanation of how the marketplace works
+- Clickable neighbourhood filters
+- Sample property cards for Kilimani, South B and Westlands
+- A short overview of how the marketplace will work
+- A placeholder for future landlord and agent onboarding
 
-> The three properties currently shown are illustrative sample listings for testing. They are not verified live rental offers.
+> **Important:** The three listings and their illustrations are samples for testing the website. They are not verified or available rental offers. Confirm ownership or authority to advertise, availability, rent, location and image permissions before publishing real listings.
 
 ## Run locally
 
@@ -23,17 +24,17 @@ npm run dev
 
 Open http://localhost:3000.
 
-## Build
+## Production build
 
 ```bash
 npm run build
 ```
 
-## Stack
+## Technology
 
 - Next.js App Router
 - React
 - TypeScript
-- Tailwind CSS
+- CSS
 
-The initial launch focus is Nairobi, Kenya. Listing verification, landlord/agent onboarding, accounts, messaging and a production listings database are future work.
+The initial launch focus is Nairobi, Kenya. Listing verification, agent and landlord onboarding, user accounts, messaging and a production listings database are not implemented yet.
