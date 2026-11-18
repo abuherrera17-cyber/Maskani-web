@@ -1,0 +1,2 @@
+Maskani GitHub-to-Vercel deployment connection check.
+This file can be removed after the automatic deployment test.
