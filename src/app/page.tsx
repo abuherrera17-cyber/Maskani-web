@@ -242,8 +242,9 @@ export default function Home() {
             <p className="eyebrow">FOR LANDLORDS & PROPERTY AGENTS</p>
             <h2>Have a place to rent?</h2>
             <p>We are building a simpler way to put genuine Nairobi rental homes in front of people looking for their next place.</p>
+            <p id="partner-contact" className="partner-note">Partner onboarding details will be published here soon.</p>
           </div>
-          <a href="mailto:hello@maskani.ke?subject=Maskani%20property%20listing%20enquiry" className="partner-button">
+          <a href="#partner-contact" className="partner-button">
             Become a listing partner <span aria-hidden="true">↗</span>
           </a>
         </div>
